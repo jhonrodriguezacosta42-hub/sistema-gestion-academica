@@ -1,4 +1,4 @@
-SISTEMA de GESTION
+## sistema de Gestion Academica - Version desde rama prueba-conflicto
 ACADEMICA
 Proyecto desarrollado en Python.
 FUNCIONES
