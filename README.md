@@ -1,4 +1,4 @@
-SISTEMA de GESTION
+## Sistema de Gestion Academica - Version oficial main
 ACADEMICA
 Proyecto desarrollado en Python.
 FUNCIONES
