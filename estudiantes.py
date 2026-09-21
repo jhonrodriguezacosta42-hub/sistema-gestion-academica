@@ -28,3 +28,15 @@ def eliminar_estudiante(codigo):
         estudiantes.remove(estudiante)
         return True
     return False
+    
+def mejor_estudiante(lista_estudiante):
+    if not lista_estudiante:
+        return None
+
+    from notas import calcular_promedio
+    mejor = lista_estudiante[0]
+    for estudiante in lista_estudiantes:
+        if calcular_promedio(estudiante) > calcular_promedio(mejor):
+            mejor = estudiante
+    
+    return mejor
